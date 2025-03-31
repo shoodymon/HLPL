@@ -1,0 +1,34 @@
+﻿<Window x:Class="AppZhyvahlod.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppZhyvahlod.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border 
+            Background="#E5E5E5"
+            CornerRadius="10"
+            Margin="50"
+            BorderBrush="#007ACC"
+            BorderThickness="2">
+            <TextBlock 
+                Text="Ура, пустое окно появилось :)" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                FontSize="24"
+                FontWeight="Bold"
+                Foreground="#333333">
+                <TextBlock.Effect>
+                    <DropShadowEffect 
+                        ShadowDepth="2"
+                        Direction="315"
+                        Color="Gray"
+                        Opacity="0.5"
+                        BlurRadius="4"/>
+                </TextBlock.Effect>
+            </TextBlock>
+        </Border>
+    </Grid>
+</Window>
